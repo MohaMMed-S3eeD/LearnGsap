@@ -15,6 +15,12 @@ export default function Home() {
     smootherRef.current?.scrollTo("#box3", true, "center center");
   };
   useGSAP(() => {
+    // intro
+    gsap.from("#intro", {
+      clipPath: "inset(20% 20% 20% 20%)",
+      duration: 2,
+      delay: 1,
+    });
     smootherRef.current = ScrollSmoother.create({
       wrapper: "#smooth-wrapper",
       content: "#smooth-content",
@@ -31,7 +37,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="w-full h-full">
+    <div id="intro" className="w-full h-full bg-[#0F1011]">
       <button
         className="fixed top-10 left-10 bg-blue-500 text-white p-2 rounded-md z-10"
         onClick={() => scrollTo()}
