@@ -14,7 +14,7 @@ export default function Home() {
 
     // });
 
-    let split = SplitText.create("h1", {
+    const split = SplitText.create("h1", {
       type: "words",
       wordsClass: "word",
     });
