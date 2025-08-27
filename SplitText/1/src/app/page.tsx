@@ -43,7 +43,7 @@ export default function Home() {
         id="page"
         className="h-[100dvh] w-screen flex items-center justify-center clip-path-polygon-100"
       >
-        <h1 className=" text-white text-xl font-light  max-w-[50%]">
+        <h1 className=" text-white text-xl font-light w-full p-2 md:p-0 md:max-w-[50%]">
           Modern web development requires a deep understanding of advanced
           technologies and cutting-edge tools. By utilizing libraries like GSAP
           and React, we can create stunning interactive experiences and
