@@ -53,12 +53,48 @@ export default function Home() {
           field.
         </h1>
       </div>
-      <div className="h-[100dvh] w-screen bg-black flex items-center justify-center">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-          quos.
-        </p>
-      </div>
+      <footer className="w-screen bg-gray-900 text-gray-200 py-10">
+  <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+    {/* Column 1 */}
+    <div>
+      <h2 className="text-xl font-bold mb-4">My Website</h2>
+      <p className="text-gray-400">
+        Building modern web experiences with Tailwind and React. 🚀
+      </p>
+    </div>
+
+    {/* Column 2 */}
+    <div>
+      <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+      <ul className="space-y-2">
+        <li><a href="#" className="hover:text-white">Home</a></li>
+        <li><a href="#" className="hover:text-white">About</a></li>
+        <li><a href="#" className="hover:text-white">Services</a></li>
+        <li><a href="#" className="hover:text-white">Contact</a></li>
+      </ul>
+    </div>
+
+    {/* Column 3 */}
+    <div>
+      <h3 className="text-lg font-semibold mb-4">Subscribe</h3>
+      <form className="flex flex-col sm:flex-row gap-2">
+        <input
+          type="email"
+          placeholder="Your email"
+          className="px-4 py-2 rounded-lg text-gray-900 w-full sm:w-auto"
+        />
+        <button className="px-4 py-2 bg-blue-600 rounded-lg hover:bg-blue-700">
+          Subscribe
+        </button>
+      </form>
+    </div>
+  </div>
+
+  {/* Bottom bar */}
+  <div className="border-t border-gray-700 mt-10 pt-6 text-center text-gray-500 text-sm">
+    © {new Date().getFullYear()} My Website. All rights reserved.
+  </div>
+</footer>
     </main>
   );
 }
