@@ -53,7 +53,7 @@ export default function Home() {
           field.
         </h1>
       </div>
-      <footer className="w-screen bg-gray-900 text-gray-200 py-10">
+      <footer className="w-screen bg-black text-gray-200 py-10">
   <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
     {/* Column 1 */}
     <div>
