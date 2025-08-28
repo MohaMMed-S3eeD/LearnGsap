@@ -10,7 +10,7 @@
 
 ---
 
-## Demos (EN)
+## Demos
 
 ### 1) GSAP Timeline ⏱️
 Live demo: [learn-gsap-time-line.vercel.app](https://learn-gsap-time-line.vercel.app/)
